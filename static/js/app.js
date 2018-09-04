@@ -51,7 +51,7 @@ let app = new Vue({
     getCoins: function() {
       let self = this;
 
-      axios.get(COINMARKETCAP_API_URI + "/v2/ticker/?limit=100")
+      axios.get(COINMARKETCAP_API_URI + "/v2/ticker/?limit=100&structure=array")
         .then((resp) => {
           this.coins = resp.data.data;
         })
