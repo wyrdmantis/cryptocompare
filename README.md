@@ -1,5 +1,7 @@
 # cryptocompare
 
+***Updated to fix changes in the CoinMarketCap API.
+
 CryptoCompare is a static website that compares cryptocurrency prices for
 popular currencies.
 
